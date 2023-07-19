@@ -13,10 +13,10 @@ function App() {
     <Navbar />
     <MainContent />
     <div className='card-array'>
-    <Card img={Eminem} rating="5.0(5) - USA" name="Life lessons with Eminem" price="136$/person"/>
-    <Card img={Snopp} rating="4.8(5) - USA" name="Life lessons with Snopp Dogg" price="126$/person"/>
-    <Card img={Rock} rating="4.5(5) - USA" name="Life lessons with The Rock" price="13$/person"/>
-    <Card img={Mike} rating="5.0(5) - USA" name="Life lessons with Mike Tyson" price="150$/person"/>
+    <Card img={Eminem} rating="5(5)" name="Life lessons with Eminem" price={136}/>
+    <Card img={Snopp} rating="4.8(5)" name="Life lessons with Snopp Dogg" price={126}/>
+    <Card img={Rock} rating="4.7(5)" name="Life lessons with The Rock" price={145}/>
+    <Card img={Mike} rating="5(5)" name="Life lessons with Mike Tyson" price={150}/>
     </div>
     </div>
   )
