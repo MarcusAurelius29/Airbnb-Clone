@@ -1,4 +1,3 @@
-import eminem from '../images/eminem.jfif'
 
 function Card(props) {
    return (
